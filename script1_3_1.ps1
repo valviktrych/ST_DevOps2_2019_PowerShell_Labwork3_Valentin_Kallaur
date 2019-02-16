@@ -1,0 +1,1 @@
+﻿Get-Process | Sort-Object CPU -Descending | Select Handles, CPU, Id, SI, ProcessName -First 10 | Out-File -FilePath C:\M2T2_KALLAUR\Processes.txt
